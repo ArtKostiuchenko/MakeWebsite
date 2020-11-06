@@ -1,0 +1,20 @@
+<!DOCTYPE html>
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <link rel="stylesheet" href="../assets/css/paint.css">
+    <link rel="stylesheet" href="../assets/css/slide.css">
+    <title>Drawing</title>
+</head>
+<body>
+    <canvas id="draw" width="490" height="220"></canvas>
+
+    <div class="menu">
+    <button class="mybutton" onclick="clearcontent()" id="clear_cont">Clear content</button>
+    <input type="color" value="#ff0000" id="changecolor">
+    <input type="submit" class="select-button" value="Выбрать" id="choose-color" onclick="setMyColor()">
+    <input class = "myinput" type="text" value="5" id="text_size">
+    <input type="submit" class="select-button" value="Выбрать" id="choose-size" onclick="setSize()">
+    </div>
+    <script src="../assets/js/paint.js"></script>
+</body>
+</html>
